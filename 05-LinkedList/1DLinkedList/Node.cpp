@@ -45,6 +45,18 @@ int lengthOfLL(Node* head){
     return count;
 }
 
+// check if element is present
+int checkIfPresent(Node* head, int val){
+    Node* temp = head;
+    while(temp){
+        if(temp->data==val){
+            return 1;
+        }
+        temp = temp->next;
+    }
+    return 0;
+}
+
 int main()
 {
 
@@ -60,6 +72,12 @@ cout << temp->data << " ";
 temp = temp->next;
 }
 
+
 }
+
+
+
+
+
 
 
