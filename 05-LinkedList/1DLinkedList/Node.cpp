@@ -22,6 +22,7 @@ struct Node {
 
 };
 
+// Convert Array to LL 
 Node* convertArrayToLL(vector<int> &arr){
     Node* head = new Node(arr[0]); // Create the head node
     Node* mover = head; // Pointer to keep track of the current node
@@ -35,6 +36,7 @@ Node* convertArrayToLL(vector<int> &arr){
     return head; // Return the head of the linked list
 }
 
+// Length of LL 
 int lengthOfLL(Node* head){
     int count = 0;
     Node* temp = head;
