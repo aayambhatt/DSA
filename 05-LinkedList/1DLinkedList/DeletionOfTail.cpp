@@ -33,7 +33,7 @@ Node* deleteTail(Node* head) {
     }
     // Delete the last node and set the second-to-last node's next to NULL
     delete temp->next;
-    temp->next = NULL;
+    temp->next = nullptr;
 
     return head;
 }
