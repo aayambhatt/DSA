@@ -34,7 +34,7 @@ void levelOrderTraversal(Node* root){
         cout<<front->data<< " ";
         
         // push left child, first check if left of front exits
-        if(front->left!=NULL){
+         if(front->left!=NULL){
             q.push(front->left);
         }
         if(front->right!=NULL){
